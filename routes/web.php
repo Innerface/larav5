@@ -12,5 +12,26 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('person');
 });
+
+Route::get('/app', function () {
+    return view('app');
+});
+
+Route::get('/login', function () {
+    return view('home');
+});
+
+Route::get('/person', function () {
+    return view('person');
+});
+
+Route::get('/auth/login', function () {
+    return view('auth.login');
+});
+
+Route::get('/auth/register', function () {
+    return view('auth.register');
+});
+
