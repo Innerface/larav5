@@ -15,23 +15,32 @@ Route::get('/', function () {
     return view('person');
 });
 
-Route::get('/app', function () {
-    return view('app');
-});
+Route::get('/ebay', 'Home\HomeController@ebay');
+Route::get('/amazon', 'Home\HomeController@amazon');
+Route::get('/wish', 'Home\HomeController@wish');
+Route::get('/aliexpress', 'Home\HomeController@aliexpress');
+Route::get('/lazada', 'Home\HomeController@lazada');
+Route::get('/joom', 'Home\HomeController@joom');
+Route::get('/paytm', 'Home\HomeController@paytm');
+Route::get('/shopee', 'Home\HomeController@shopee');
+Route::get('/yahoo', 'Home\HomeController@yahoo');
 
-Route::get('/login', function () {
-    return view('home');
-});
+Route::get('/php', 'Home\HomeController@php');
+Route::get('/linux', 'Home\HomeController@linux');
+Route::get('/apache', 'Home\HomeController@apache');
+Route::get('/nginx', 'Home\HomeController@nginx');
+Route::get('/mysql', 'Home\HomeController@mysql');
+Route::get('/redis', 'Home\HomeController@redis');
+Route::get('/mongo', 'Home\HomeController@mongo');
+Route::get('/memcache', 'Home\HomeController@memcache');
+Route::get('/vagrant', 'Home\HomeController@memcache');
 
-Route::get('/person', function () {
-    return view('person');
-});
+Route::get('/csharp', 'Home\HomeController@csharp');
+Route::get('/opencv', 'Home\HomeController@opencv');
+Route::get('/docker', 'Home\HomeController@docker');
+Route::get('/sphinx', 'Home\HomeController@sphinx');
+Route::get('/github', 'Home\HomeController@github');
+Route::get('/laravel', 'Home\HomeController@laravel');
 
-Route::get('/auth/login', function () {
-    return view('auth.login');
-});
-
-Route::get('/auth/register', function () {
-    return view('auth.register');
-});
+Route::get('/paypal', 'Home\HomeController@paypal');
 
