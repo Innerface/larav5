@@ -84,9 +84,9 @@
 
         <div class="links">
             <a href="{{$documention}}">Documentation</a>
-            <a href="">Tips</a>
-            <a href="">GitHub</a>
-            <a href="{{$documention}}">Manual</a>
+            <a href="{{$pdf}}">pdf</a>
+            <a href="{{$git}}">GitHub</a>
+            <a href="{{$manul}}">Manual</a>
         </div>
     </div>
 </div>

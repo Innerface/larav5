@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('person');
 });
 
+Route::get('/file', function () {
+    return view('home.pdf');
+});
+
 Route::get('/ebay', 'Home\HomeController@ebay');
 Route::get('/amazon', 'Home\HomeController@amazon');
 Route::get('/wish', 'Home\HomeController@wish');

@@ -72,6 +72,10 @@
             .m-b-md {
                 margin-bottom: 20px;
             }
+            img{
+                width: 150px;
+                height: 150px;
+            }
         </style>
     </head>
     <body oncontextmenu="event.returnValue=false">
@@ -138,7 +142,11 @@
                 </div>
 
                 <div class="links" style="padding:10px 10px 10px 10px;">
-                    <a href="https://github.com/WITHOUT7" style="background-color: #ffffff; padding:10px 10px 10px 10px; border-radius: 5px" class="btn btn-default btn-doc" target="_self">About Author</a>
+                    <a href="https://github.com/WITHOUT7" style="background-color: #ffffff; padding:10px 10px 10px 10px; border-radius: 5px" class="btn btn-default btn-doc" target="_self">@Author</a>
+                </div>
+
+                <div class="links" style="padding:10px 10px 10px 10px;">
+                    <img src="{{ URL::asset('images/images20170823.jpg') }}" title="联系作者请扫微信">
                 </div>
 
             </div>

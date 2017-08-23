@@ -33,9 +33,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'ebay',
             'documention' => 'http://www.ebay.cn/developer/api/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://www.ebay.cn/show.php?contentid=4264',
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://www.ebay.cn/show.php?contentid=4264',
             'paypal' => 'https://developer.paypal.com/reference/'
         );
         return view('home.ebay',$data);
@@ -50,9 +50,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'amazon',
             'documention' => 'https://developer.amazonservices.com.cn/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://mws.amazonservices.com/scratchpad/index.html'
+            'pdf' => 'https://images-cn.ssl-images-amazon.com/images/G/28/rainier/help/XML_Documentation_Intl._V158771171_.pdf',
+            'git' => '',
+            'manul' => 'https://mws.amazonservices.com/scratchpad/index.html'
         );
         return view('home.ebay',$data);
     }
@@ -66,9 +66,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'wish',
             'documention' => 'https://merchant.wish.com/documentation/api',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://sandbox.merchant.wish.com/welcome?next=%2F'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'https://sandbox.merchant.wish.com/welcome?next=%2F'
         );
         return view('home.ebay',$data);
     }
@@ -82,9 +82,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'aliexpress',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -98,9 +98,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'lazada',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -114,9 +114,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'joom',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -130,9 +130,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'paytm',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -146,9 +146,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'shopee',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -162,9 +162,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'yahoo',
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -178,9 +178,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'php',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -194,9 +194,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'linux',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -210,9 +210,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'apache',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -226,9 +226,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'nginx',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -242,9 +242,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'mysql',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -258,9 +258,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'redis',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -274,9 +274,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'mongo',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -290,9 +290,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'memcache',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -306,9 +306,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'vagrant',
             'documention' => 'https://segmentfault.com/a/1190000000264347',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://www.vagrantup.com/docs/index.html'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'https://www.vagrantup.com/docs/index.html'
         );
         return view('home.ebay',$data);
     }
@@ -322,9 +322,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'c#',
             'documention' => 'https://docs.microsoft.com/zh-cn/dotnet/csharp/index',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://docs.microsoft.com/zh-cn/dotnet/api/?view=azure-dotnet'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'https://docs.microsoft.com/zh-cn/dotnet/api/?view=azure-dotnet'
         );
         return view('home.ebay',$data);
     }
@@ -338,9 +338,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'opencv',
             'documention' => 'http://opencv.org/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://wiki.opencv.org.cn/index.php/%E9%A6%96%E9%A1%B5'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://wiki.opencv.org.cn/index.php/%E9%A6%96%E9%A1%B5'
         );
         return view('home.ebay',$data);
     }
@@ -354,9 +354,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'docker',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -370,9 +370,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'sphinx',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -386,9 +386,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'apistore',
             'documention' => 'http://php.net/manual/zh/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -402,9 +402,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'github',
             'documention' => 'https://github.com/WITHOUT7',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
         );
         return view('home.ebay',$data);
     }
@@ -418,9 +418,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'laravel',
             'documention' => 'http://www.golaravel.com/',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://cs.laravel-china.org/'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'https://cs.laravel-china.org/'
         );
         return view('home.ebay',$data);
     }
@@ -434,9 +434,9 @@ class HomeController extends Controller
         $data = array(
             'name' => 'yii',
             'documention' => 'http://www.yiichina.com/doc',
-            'code' => '',
-            'remark' => '',
-            'frame' => 'https://cs.laravel-china.org/'
+            'pdf' => '',
+            'git' => '',
+            'manul' => 'https://cs.laravel-china.org/'
         );
         return view('home.ebay',$data);
     }
