@@ -100,7 +100,7 @@ class HomeController extends Controller
             'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'https://lazada-sellercenter.readme.io/docs?spm=0.0.0.0.DGOrVi'
         );
         return view('home.ebay',$data);
     }
@@ -113,10 +113,10 @@ class HomeController extends Controller
     public function joom(){
         $data = array(
             'name' => 'joom',
-            'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
+            'documention' => 'https://www.joom.com/en/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'https://merchant.joom.com/documentation/api/v2/#fulfill-an-order'
         );
         return view('home.ebay',$data);
     }
@@ -129,10 +129,10 @@ class HomeController extends Controller
     public function paytm(){
         $data = array(
             'name' => 'paytm',
-            'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
+            'documention' => 'https://www.programmableweb.com/api/paytm',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => ''
         );
         return view('home.ebay',$data);
     }
@@ -145,10 +145,10 @@ class HomeController extends Controller
     public function shopee(){
         $data = array(
             'name' => 'shopee',
-            'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
+            'documention' => 'http://shopee.cn/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'https://partner.shopeemobile.com/docs/'
         );
         return view('home.ebay',$data);
     }
@@ -161,10 +161,10 @@ class HomeController extends Controller
     public function yahoo(){
         $data = array(
             'name' => 'yahoo',
-            'documention' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_join.htm?ns=aliexpress.open',
+            'documention' => 'https://developer.yahoo.co.jp/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => ''
         );
         return view('home.ebay',$data);
     }
@@ -180,7 +180,7 @@ class HomeController extends Controller
             'documention' => 'http://php.net/manual/zh/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => ''
         );
         return view('home.ebay',$data);
     }
@@ -193,10 +193,10 @@ class HomeController extends Controller
     public function linux(){
         $data = array(
             'name' => 'linux',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://www.linux.org/forums/linux-beginner-tutorials.123/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => ''
         );
         return view('home.ebay',$data);
     }
@@ -209,10 +209,10 @@ class HomeController extends Controller
     public function apache(){
         $data = array(
             'name' => 'apache',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://www.apache.org/index.html#projects-list',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => ''
         );
         return view('home.ebay',$data);
     }
@@ -225,10 +225,10 @@ class HomeController extends Controller
     public function nginx(){
         $data = array(
             'name' => 'nginx',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'http://nginx.org/en/docs/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'http://nginx.org/en/docs/beginners_guide.html'
         );
         return view('home.ebay',$data);
     }
@@ -241,10 +241,10 @@ class HomeController extends Controller
     public function mysql(){
         $data = array(
             'name' => 'mysql',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://dev.mysql.com/doc/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'http://php.net/manual/zh/ref.mysql.php'
         );
         return view('home.ebay',$data);
     }
@@ -257,10 +257,10 @@ class HomeController extends Controller
     public function redis(){
         $data = array(
             'name' => 'redis',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://redis.io/documentation',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'https://redis.io/modules'
         );
         return view('home.ebay',$data);
     }
@@ -273,10 +273,10 @@ class HomeController extends Controller
     public function mongo(){
         $data = array(
             'name' => 'mongo',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://www.mongodb.com/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'https://docs.mongodb.com/?_ga=2.218966045.56897730.1503485291-1452450860.1503485291'
         );
         return view('home.ebay',$data);
     }
@@ -289,10 +289,10 @@ class HomeController extends Controller
     public function memcache(){
         $data = array(
             'name' => 'memcache',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'http://memcached.org/',
             'pdf' => '',
-            'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'git' => 'https://github.com/memcached/memcached/issues',
+            'manul' => 'https://github.com/memcached/perl-Cache-Memcached'
         );
         return view('home.ebay',$data);
     }
@@ -353,10 +353,10 @@ class HomeController extends Controller
     public function docker(){
         $data = array(
             'name' => 'docker',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'https://www.docker.com/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'http://www.docker.org.cn/book/docker/what-is-docker-16.html'
         );
         return view('home.ebay',$data);
     }
@@ -369,10 +369,10 @@ class HomeController extends Controller
     public function sphinx(){
         $data = array(
             'name' => 'sphinx',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'http://www.sphinxsearch.org/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'http://www.sphinxsearch.org/sphinx-realtime-api'
         );
         return view('home.ebay',$data);
     }
@@ -385,10 +385,10 @@ class HomeController extends Controller
     public function apistore(){
         $data = array(
             'name' => 'apistore',
-            'documention' => 'http://php.net/manual/zh/',
+            'documention' => 'http://apistore.baidu.com/',
             'pdf' => '',
             'git' => '',
-            'manul' => 'http://gw.api.alibaba.com/dev/doc/intl/sys_sdk.htm?ns=aliexpress.open'
+            'manul' => 'http://apistore.baidu.com/astore/guide.html'
         );
         return view('home.ebay',$data);
     }

@@ -19,6 +19,10 @@ Route::get('/file', function () {
     return view('home.pdf');
 });
 
+Route::get('/phpinfo', function () {
+    echo phpinfo();
+});
+
 Route::get('/ebay', 'Home\HomeController@ebay');
 Route::get('/amazon', 'Home\HomeController@amazon');
 Route::get('/wish', 'Home\HomeController@wish');
