@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('person');
+    return view('home.home');
 });
 
 Route::get('/file', function () {
@@ -23,6 +23,13 @@ Route::get('/phpinfo', function () {
     echo phpinfo();
 });
 
+Route::get('home/{name?}', function($name = null)
+{
+    return $name;
+})
+    ->where('name', '[A-Za-z]+');
+
+Route::get('/home', 'Home\HomeController@home');
 Route::get('/ebay', 'Home\HomeController@ebay');
 Route::get('/amazon', 'Home\HomeController@amazon');
 Route::get('/wish', 'Home\HomeController@wish');

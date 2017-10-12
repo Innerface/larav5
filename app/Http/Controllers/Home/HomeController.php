@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Home;
 
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Config;
 
 class HomeController extends Controller
 {
@@ -39,6 +40,19 @@ class HomeController extends Controller
             'paypal' => 'https://developer.paypal.com/reference/'
         );
         return view('home.ebay',$data);
+    }
+
+    /**
+     * home
+     *
+     * @return Response
+     */
+    public function home(){
+        $data = array(
+            'name' => config('database.connections.mysql.charset'),
+            'app' => config('app.log')
+        );
+        return view('home.home',$data);
     }
 
     /**
