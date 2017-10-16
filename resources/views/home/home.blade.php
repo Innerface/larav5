@@ -94,11 +94,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
                 <div class="header-right">
                     <ul>
-                        <li><a href="#"><span class="qq"> </span></a></li>
-                        <li><a href="#"><span class="wechat"> </span></a></li>
-                        <li><a href="#"><span class="weibo"> </span></a></li>
-                        <li><a href="#"><span class="baidu"> </span></a></li>
-                        <li><a href="#"><span class="kuma"> </span></a></li>
+                        <li><a href="{{ route('login') }}"><span class="qq"> </span></a></li>
+                        <li><a href="{{ route('login') }}"><span class="wechat"> </span></a></li>
+                        <li><a href="{{ route('login') }}"><span class="weibo"> </span></a></li>
+                        <li><a href="{{ route('login') }}"><span class="baidu"> </span></a></li>
+                        <li><a href="{{ route('login') }}"><span class="kuma"> </span></a></li>
+                        {{--<li><a href="#"><span class="kuma"> </span></a></li>--}}
                     </ul>
                 </div>
                 <div class="clearfix"></div>
@@ -118,7 +119,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <h4>YuYuE</h4>
                     <h5>WEB ENGINEER</h5>
                     <ul>
-                        <li><a href="#"><span class="qq"> </span></a></li>
+                        <li><a href="#"><span class="kuma"> </span></a></li>
                         <li><a href="#"><span class="wechat"> </span></a></li>
                         <li><a href="#"><span class="weibo"> </span></a></li>
                     </ul>

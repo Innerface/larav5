@@ -22,7 +22,8 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest')->except('logout');
+        $this->middleware('auth');
+        //$this->middleware('guest')->except('logout');
     }
 
     /**
@@ -52,7 +53,7 @@ class HomeController extends Controller
             'name' => config('database.connections.mysql.charset'),
             'app' => config('app.log')
         );
-        return view('home.home',$data);
+        return view('home.ebay',$data);
     }
 
     /**
