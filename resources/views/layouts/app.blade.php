@@ -45,6 +45,7 @@
                         <li><a href="{{ route('communicate') }}">COMMUNICATE</a></li>
                         <li><a href="{{ route('lab') }}">LAB</a></li>
                         <li><a href="{{ route('discuss') }}">DISCUSS</a></li>
+                        <li><a href="{{ route('entertainment') }}">ENTERTAINMENT</a></li>
 
                     </ul>
 
@@ -62,8 +63,63 @@
 
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
-                                        <a href="{{ route('logout') }}"
+                                        <a href="{{ url('/admin') }}"
+                                           onclick="event.preventDefault();
+                                                     document.getElementById('admin-form').submit();">
+                                            Admin
+                                        </a>
+
+                                        <form id="admin-form" action="{{ url('/admin') }}" method="Get" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('home') }}"
                                             onclick="event.preventDefault();
+                                                     document.getElementById('profile-form').submit();">
+                                            Profile
+                                        </a>
+
+                                        <form id="profile-form" action="{{ route('home') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('home') }}"
+                                           onclick="event.preventDefault();
+                                                     document.getElementById('note-form').submit();">
+                                            Note
+                                        </a>
+
+                                        <form id="note-form" action="{{ route('home') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('home') }}"
+                                           onclick="event.preventDefault();
+                                                     document.getElementById('favorites-form').submit();">
+                                            Favorites
+                                        </a>
+
+                                        <form id="favorites-form" action="{{ route('home') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('home') }}"
+                                           onclick="event.preventDefault();
+                                                     document.getElementById('wish-form').submit();">
+                                            Wish
+                                        </a>
+
+                                        <form id="wish-form" action="{{ route('home') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('logout') }}"
+                                           onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                             Logout
                                         </a>

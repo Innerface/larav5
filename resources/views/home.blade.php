@@ -15,16 +15,16 @@
     {{--</div>--}}
 {{--</div>--}}
 <div class="flex-center position-ref full-height">
-    @if (Route::has('login'))
-        <div class="top-right links">
-            @if (Auth::check())
-                <a href="{{ url('/home') }}">Home</a>
-            @else
-                <a href="{{ url('/login') }}">Login</a>
-                <a href="{{ url('/register') }}">Register</a>
-            @endif
-        </div>
-    @endif
+    {{--@if (Route::has('login'))--}}
+        {{--<div class="top-right links">--}}
+            {{--@if (Auth::check())--}}
+                {{--<a href="{{ url('/home') }}">Home</a>--}}
+            {{--@else--}}
+                {{--<a href="{{ url('/login') }}">Login</a>--}}
+                {{--<a href="{{ url('/register') }}">Register</a>--}}
+            {{--@endif--}}
+        {{--</div>--}}
+    {{--@endif--}}
 
     <div class="content">
         <div class="title m-b-md">
@@ -81,7 +81,7 @@
         </div>
 
         <div class="links" style="padding:10px 10px 10px 10px;">
-            <img class="home_img" src="{{ URL::asset('images/images20170823.jpg') }}" title="联系作者请扫微信">
+            <img style="width: 150px;height: 150px" src="{{ URL::asset('images/images20170823.jpg') }}" title="联系作者请扫微信">
         </div>
 
     </div>

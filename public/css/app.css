@@ -4498,8 +4498,14 @@ tbody.collapse.in {
 
 .navbar-nav > li > .dropdown-menu {
     margin-top: 0;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
+}
+
+.dropdown-toggle {
+    background-color: #d58512;
+    margin-top: 0;
+    border-radius: 5px 5px 5px 5px;
 }
 
 .navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
@@ -4558,11 +4564,11 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
-    color: #777
+    color: #fff
 }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
-    color: #333;
+    color: #ccc;
     background-color: transparent
 }
 
@@ -6875,9 +6881,41 @@ button.close {
 .m-b-md {
     margin-bottom: 20px;
 }
-home_img{
-    width: 150px;
-    height: 150px;
+
+.ebay-full-height {
+    height: 80vh;
+}
+
+.ebay-flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.ebay-position-ref {
+    position: relative;
+}
+
+.ebay-content {
+    text-align: center;
+}
+
+.ebay-title {
+    font-size: 84px;
+}
+
+.ebay-links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ebay-m-b-md {
+    margin-bottom: 30px;
 }
 @media print {
     .visible-print-block {
