@@ -11,5 +11,8 @@ Route::group([
 ], function (Router $router) {
 
     $router->get('/', 'HomeController@index');
-    $router->get('/web/train', 'HomeController@train');
+    $router->get('/movie', 'MovieController@index');
+    $router->post('/movie', 'MovieController@index');
+    $router->get('/movie/create', 'MovieController@create');
+    $router->resource('movie', MovieController::class);
 });

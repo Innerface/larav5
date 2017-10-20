@@ -20,9 +20,11 @@ use Encore\Admin\Widgets\Tab;
 use Encore\Admin\Widgets\Table;
 use Encore\Admin\Auth\Database\Menu;
 use Encore\Admin\Auth\Database\Role;
+use Illuminate\Support\MessageBag;
 
 use App\Movie;
 use Encore\Admin\Form;
+use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
@@ -122,21 +124,9 @@ class HomeController extends Controller
     public function train()
     {
         return Admin::content(function (Content $content) {
-            $content->header(trans('admin::lang.menu'));
-            $content->description(trans('admin::lang.list'));
 
             $content->row(function (Row $row) {
                 $row->column(6, function (Column $column) {
-//                    $form = new \Encore\Admin\Widgets\Form();
-//                    $form->action(admin_url('auth/menu'));
-//
-//                    $form->select('parent_id', trans('admin::lang.parent_id'))->options(Menu::selectOptions());
-//                    $form->text('title', trans('admin::lang.title'))->rules('required');
-//                    $form->icon('icon', trans('admin::lang.icon'))->default('fa-bars')->rules('required');
-//                    $form->text('uri', trans('admin::lang.uri'));
-//                    $form->multipleSelect('roles', trans('admin::lang.roles'))->options(Role::all()->pluck('name', 'id'));
-//
-//                    $column->append((new Box(trans('admin::lang.new'), $form))->style('success'));
                     $grid = Admin::form(Movie::class, function(Form $form){
                         // 显示记录id
                         $form->display('id', 'ID');
@@ -159,12 +149,11 @@ class HomeController extends Controller
                         // 两个时间显示
                         $form->display('created_at', '创建时间');
                         $form->display('updated_at', '修改时间');
+                        //$form->setAction('admin/users');
                     });
                     $column->append((new Box(trans('admin::lang.new'), $grid))->style('success'));
                 });
             });
         });
-
-
     }
 }
