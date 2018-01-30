@@ -71,3 +71,5 @@ Route::get('/communicate', 'Communicate\CommunicateController@index')->name('com
 Route::get('/lab', 'Lab\LabController@index')->name('lab');
 Route::get('/discuss', 'Discuss\DiscussController@index')->name('discuss');
 Route::get('/entertainment', 'Entertainment\EntertainmentController@index')->name('entertainment');
+
+Route::get('/wechat', 'Wechat\WechatController@index')->name('wechat');
