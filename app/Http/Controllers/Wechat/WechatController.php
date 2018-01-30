@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Web;
+namespace App\Http\Controllers\Wechat;
 
 use Illuminate\Auth\Access\Response;
 use Illuminate\Http\Request;
