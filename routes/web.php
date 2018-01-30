@@ -58,6 +58,7 @@ Route::get('/laravel', 'Home\HomeController@laravel');
 
 Route::get('/paypal', 'Home\HomeController@paypal');
 
+Route::get('/wechat', 'Wechat\WechatController@index')->name('wechat');
 
 Auth::routes();
 
@@ -72,4 +73,3 @@ Route::get('/lab', 'Lab\LabController@index')->name('lab');
 Route::get('/discuss', 'Discuss\DiscussController@index')->name('discuss');
 Route::get('/entertainment', 'Entertainment\EntertainmentController@index')->name('entertainment');
 
-Route::get('/wechat', 'Wechat\WechatController@index')->name('wechat');
