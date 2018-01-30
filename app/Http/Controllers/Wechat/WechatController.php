@@ -36,7 +36,7 @@ class WechatController extends Controller
         //检验签名的合法性
         if($this->_checkSignature()){
             //签名合法，告知微信公众平台服务器
-            echo $_GET['echostr'];
+            return $_GET['echostr'];
         }
     }
 
@@ -47,7 +47,7 @@ class WechatController extends Controller
         //检验签名的合法性
         if($this->_checkSignature()){
             //签名合法，告知微信公众平台服务器
-            echo $_GET['echostr'];
+            return $_GET['echostr'];
         }
     }
     /**
