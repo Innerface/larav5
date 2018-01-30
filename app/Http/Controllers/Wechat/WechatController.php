@@ -14,6 +14,7 @@ class WechatController extends Controller
      * @var string
      */
     protected $redirectTo = '/home';
+    protected $_token = "INKZ";
 
     /**
      * Create a new controller instance.
