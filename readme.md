@@ -53,58 +53,58 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## command
 
 ## set access for http
-composer config secure-http false 
+- **composer config secure-http false 
 
 ## create project on version 5.5.*
-sudo composer create-project laravel/laravel chatroom 5.5.* --prefer-dist
+- **sudo composer create-project laravel/laravel chatroom 5.5.* --prefer-dist
 
 ## add plugin laravel-admin
-sudo composer require encore/laravel-admin "1.5.*"
-php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
-php artisan admin:install
+- **sudo composer require encore/laravel-admin "1.5.*"
+- **php artisan vendor:publish --provider="Encore\Admin\AdminServiceProvider"
+- **php artisan admin:install
 
 ## add helper
-sudo composer config -g secure-http false
-sudo composer require laravel-admin-ext/helpers
-php artisan admin:import helpers
+- **sudo composer config -g secure-http false
+- **sudo composer require laravel-admin-ext/helpers
+- **php artisan admin:import helpers
 
 ##a dd media-manager
-sudo composer require laravel-admin-ext/media-manager
-php artisan admin:import media-manager
+- **sudo composer require laravel-admin-ext/media-manager
+- **php artisan admin:import media-manager
 
 ## add api-tester
-sudo composer require laravel-admin-ext/api-tester
-php artisan vendor:publish --tag=api-tester
-php artisan admin:import api-tester
+- **sudo composer require laravel-admin-ext/api-tester
+- **php artisan vendor:publish --tag=api-tester
+- **php artisan admin:import api-tester
 
 ## add config
-sudo composer require laravel-admin-ext/config
-php artisan migrate
-php artisan admin:import config
+- **sudo composer require laravel-admin-ext/config
+- **php artisan migrate
+- **php artisan admin:import config
 
 ## add scheduling
-sudo composer require laravel-admin-ext/scheduling
-php artisan admin:import scheduling
+- **sudo composer require laravel-admin-ext/scheduling
+- **php artisan admin:import scheduling
 
 ## add message
-sudo composer require "laravel-admin-ext/messages @dev"
-php artisan migrate
-php artisan admin:import Encore\\Admin\\Message\\Messages
+- **sudo composer require "laravel-admin-ext/messages @dev"
+- **php artisan migrate
+- **php artisan admin:import Encore\\Admin\\Message\\Messages
 
 ## add redis-manager
-sudo composer require laravel-admin-ext/redis-manager
-php artisan admin:import redis-manager
+- **sudo composer require laravel-admin-ext/redis-manager
+- **php artisan admin:import redis-manager
 
 ## add log-viewer
-sudo composer require laravel-admin-ext/log-viewer
-php artisan admin:import log-viewer
+- **sudo composer require laravel-admin-ext/log-viewer
+- **php artisan admin:import log-viewer
 
 ## add reporter
-sudo composer require laravel-admin-ext/reporter
-php artisan vendor:publish --tag=laravel-admin-reporter
-php artisan migrate --path=vendor/laravel-admin-ext/reporter/database/migrations
-php artisan admin:import reporter
+- **sudo composer require laravel-admin-ext/reporter
+- **php artisan vendor:publish --tag=laravel-admin-reporter
+- **php artisan migrate --path=vendor/laravel-admin-ext/reporter/database/migrations
+- **php artisan admin:import reporter
 
 ## add backup
-sudo composer require laravel-admin-ext/backup
-php artisan admin:import backup
+- **sudo composer require laravel-admin-ext/backup
+- **php artisan admin:import backup
